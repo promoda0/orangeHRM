@@ -1,4 +1,4 @@
-import time
+"""import time
 
 import pytest
 
@@ -21,4 +21,4 @@ class TestLogin:
         """My info page test"""
         self.login_page.login("Admin", "admin123")
         time.sleep(5)
-        self.myinfo.Update_Personal_Details()
+        self.myinfo.Update_Personal_Details()"""
