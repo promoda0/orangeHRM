@@ -18,7 +18,7 @@ class TestLogin:
         self.driver.get("https://opensource-demo.orangehrmlive.com/")
 
     def test_my_info(self):
-        """My info page test"""
+
         self.login_page.login("Admin", "admin123")
         time.sleep(5)
         self.myinfo.Update_Personal_Details()"""
